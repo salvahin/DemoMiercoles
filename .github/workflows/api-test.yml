@@ -28,5 +28,7 @@ jobs:
         with:
           # Postman API key
          collection: https://www.getpostman.com/collections/dd0159eddc42488fe4c8
+         envVar: '[{ "key": "token", "value": "${{secrets.TOKEN}}" }]'
+         
 
      
